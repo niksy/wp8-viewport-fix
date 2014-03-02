@@ -1,6 +1,6 @@
 {
   "name": "wp8-viewport-fix",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "homepage": "https://github.com/niksy/wp8-viewport-fix",
   "description": "Fix WP8 viewport.",
   "main": "wp8-viewport-fix.min.js",

@@ -1,6 +1,6 @@
 {
   "name": "wp8-viewport-fix",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Fix WP8 viewport.",
   "main": "wp8-viewport-fix.js",
   "scripts": {
