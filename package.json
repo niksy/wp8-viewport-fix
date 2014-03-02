@@ -1,0 +1,28 @@
+{
+  "name": "wp8-viewport-fix",
+  "version": "0.0.0",
+  "description": "Fix WP8 viewport.",
+  "main": "wp8-viewport-fix.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/niksy/wp8-viewport-fix.git"
+  },
+  "keywords": [
+    "wp8",
+    "viewport",
+    "fix"
+  ],
+  "author": "Matt Stow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/niksy/wp8-viewport-fix/issues"
+  },
+  "homepage": "https://github.com/niksy/wp8-viewport-fix",
+  "devDependencies": {
+    "grunt": "^0.4.2",
+    "grunt-contrib-uglify": "^0.4.0"
+  }
+}
