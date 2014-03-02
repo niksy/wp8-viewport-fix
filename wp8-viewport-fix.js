@@ -1,9 +1,16 @@
-(function() {
-	if ("-ms-user-select" in document.documentElement.style && navigator.userAgent.match(/IEMobile\/10\.0/)) {
-		var msViewportStyle = document.createElement("style");
+(function( doc, ua ) {
+	if (
+		"-ms-user-select" in doc.documentElement.style &&
+		(
+			ua.match(/IEMobile\/10\.0/) ||
+			ua.match(/ZuneWP7/) ||
+			ua.match(/WPDesktop/)
+		)
+	) {
+		var msViewportStyle = doc.createElement("style");
 		msViewportStyle.appendChild(
-			document.createTextNode("@-ms-viewport{width:auto!important}")
+			doc.createTextNode("@-ms-viewport{width:auto!important}")
 		);
-		document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+		doc.getElementsByTagName("head")[0].appendChild(msViewportStyle);
 	}
-})();
+})( document, navigator.userAgent );
